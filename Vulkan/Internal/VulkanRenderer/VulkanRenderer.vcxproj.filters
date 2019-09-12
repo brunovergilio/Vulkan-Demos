@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{5ddd1776-b736-4e55-9364-882bf0a8f266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom">
+      <UniqueIdentifier>{188434f6-4f59-42ad-8d58-f96167a7be75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Renderers">
+      <UniqueIdentifier>{86d36fb6-6cf6-47bc-9b19-e7fc82b643c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Renderers\ForwardRenderer">
+      <UniqueIdentifier>{a0f01e84-fa64-4783-a081-72f40a91406e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Windows">
+      <UniqueIdentifier>{976bf34d-27a5-4ad7-b9e0-7270799fbb8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Texture">
+      <UniqueIdentifier>{b2a29cd6-5dc1-4158-824f-cd6f664b050d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Skybox">
+      <UniqueIdentifier>{d23aea97-291d-4622-9271-ee39dd7aec84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Models">
+      <UniqueIdentifier>{137db7a8-b2b0-4423-b774-31bff4e5fd79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Models\Primitives">
+      <UniqueIdentifier>{7b5577a0-79f0-4d97-bd63-f4964a4fe2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Models\VertexLayout">
+      <UniqueIdentifier>{89fbc952-fdcd-47d6-9a3f-ce8f7593a8ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Lights">
+      <UniqueIdentifier>{4fcb6376-aa3f-44fa-999d-6735451ab060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\RenderTarget">
+      <UniqueIdentifier>{ab9cc68f-71b5-4f07-9481-ea4699fc7085}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ForwardRenderer.cpp">
+      <Filter>Custom\Renderers\ForwardRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Window.cpp">
+      <Filter>Custom\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanTexture.cpp">
+      <Filter>Custom\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Custom\Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexLayout.cpp">
+      <Filter>Custom\Models\VertexLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanBase.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="BvModel.cpp">
+      <Filter>Custom\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanRenderTarget.cpp">
+      <Filter>Custom\RenderTarget</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ForwardRenderer.h">
+      <Filter>Custom\Renderers\ForwardRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Window.h">
+      <Filter>Custom\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanTexture.h">
+      <Filter>Custom\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Custom\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitives.h">
+      <Filter>Custom\Models\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexLayout.h">
+      <Filter>Custom\Models\VertexLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights.h">
+      <Filter>Custom\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="BvModel.h">
+      <Filter>Custom\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanRenderTarget.h">
+      <Filter>Custom\RenderTarget</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

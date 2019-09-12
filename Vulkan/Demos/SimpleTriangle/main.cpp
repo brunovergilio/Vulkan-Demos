@@ -1,0 +1,2 @@
+#include "SimpleTriangle.h"
+

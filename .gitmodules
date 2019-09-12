@@ -1,0 +1,3 @@
+[submodule "Vulkan/External/gli"]
+	path = Vulkan/External/gli
+	url = https://github.com/g-truc/gli
